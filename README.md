@@ -27,6 +27,7 @@ http://blog.csdn.net/lhtzbj12/article/details/78847482
 # 安装方法
 
 本系统基于beego开发，默认使用mysql数据库，缓存redis 
+
 1.安装golang环境（ 略）
 
 2.安装本系统
@@ -34,7 +35,9 @@ http://blog.csdn.net/lhtzbj12/article/details/78847482
 go get github.com/lhtzbj12/sdrms
 ```
 3.将根目录下的sdrms.sql导入mysql
+
 4.修改配置文件 conf/app.conf
+
 5.运行
 在 sdrms 目录使用beego官方提供的命令运行
 ```
